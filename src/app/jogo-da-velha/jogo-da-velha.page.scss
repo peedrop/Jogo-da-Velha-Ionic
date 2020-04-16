@@ -1,0 +1,44 @@
+#btnJogarDnv{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#btnVoltar{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#grid{
+    //display:block;
+}
+#areaVencedor{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-color: #5271ff;
+}
+#proximoJogador{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #5ce1e6;
+}
+.linha{
+    border-bottom: 8px solid #5271ff;
+}
+.col{
+    border-right: 8px solid #5271ff;
+}
+ion-col{
+    height: 80px;
+    text-align: center;
+    font-size: 60px;
+}
+ion-grid{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

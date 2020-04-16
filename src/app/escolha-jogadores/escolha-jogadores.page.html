@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-img src="../../assets/img/mododejogo.png">
+      </ion-img>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="margin">
+    <ion-button id="btnVoltar" expand="block" color="primary" href="home">Voltar Página Inicial</ion-button>
+    <ion-label color="primary">Nome Jogador 1</ion-label>
+    <ion-input id="jogador1"></ion-input>
+    <ion-label color="primary">Nome Jogador 2</ion-label>
+    <ion-input id="jogador2"></ion-input>
+    <ion-button id="btnVoltar" expand="block" color="success" (click)="salvar()">Jogar 1x1</ion-button>
+    <ion-button expand="block" color="warning" href="jogo-da-velha-solo">Jogar Sozinho</ion-button>
+  </div>
+</ion-content>
